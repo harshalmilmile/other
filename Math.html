@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Maths</title>
+	<style type="text/css">
+		body{
+	background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		.output{
+			color : white;
+		font-size : 50px;
+		font-family: "Times New Roman";
+		}
+	</style>
+</head>
+<body>
+<h1  style="font-size:100px;">JavaScript Math Object</h1>
+<div id="output" class="output"></div>
+<script type="text/javascript">
+	var pi = Math.PI;
+	var round = Math.round(15.96);
+	var floor = Math.floor(4.1);
+	var min = Math.min(10,20,30,40,50);
+    var max = Math.max(10,20,30,40,50);
+    var truncate = Math.trunc(4.7);
+    var power = Math.pow(2,6);
+    var sqrt = Math.sqrt(25);
+    var random = Math.random();
+    document.getElementById('output').innerHTML="<i>PI : "+pi+"<br>"+
+	"ROUND    : "+round+"<br>"+
+	"FLOOR    : "+floor+"<br>"+
+	"MAX      : "+max+"<br>"+
+	"TRUNCATE : "+truncate+"<br>"+
+	"POWER   : "+power+"<br>"+
+	"SQUARE ROOT : "+sqrt+"<br>"+
+	"RANDOM : "+random;
+</script>
+</body>
+</html>
